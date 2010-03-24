@@ -1,0 +1,22 @@
+Use this project to test whether your system is ready for working
+on kernel modules for the April LUG meeting.
+
+Instructions
+
+$ git clone git://github.com/scottellis/helloworld-kernel-module
+$ cd helloworld-kernel-module
+$ make
+make -C /lib/modules/2.6.31-20-generic/build M=/home/scott/LUG/helloworld-kernel-module modules
+make[1]: Entering directory `/usr/src/linux-headers-2.6.31-20-generic'
+  CC [M]  /home/scott/LUG/helloworld-kernel-module/hello.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /home/scott/LUG/helloworld-kernel-module/hello.mod.o
+  LD [M]  /home/scott/LUG/helloworld-kernel-module/hello.ko
+make[1]: Leaving directory `/usr/src/linux-headers-2.6.31-20-generic'
+
+If you don't get output like this, then your system isn't setup correctly
+for the April meeting.
+
+Post questions to the TechMaine LUG forum for assistance.
+
