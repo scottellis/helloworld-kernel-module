@@ -15,8 +15,7 @@ make[1]: Entering directory `/usr/src/linux-headers-2.6.31-20-generic'
   LD [M]  /home/scott/LUG/helloworld-kernel-module/hello.ko
 make[1]: Leaving directory `/usr/src/linux-headers-2.6.31-20-generic'
 
-If you don't get output like this, then your system isn't setup correctly
-for the April meeting.
+If you don't get output like this, then your system isn't ready. 
 
 Post questions to the TechMaine LUG forum for assistance.
 
